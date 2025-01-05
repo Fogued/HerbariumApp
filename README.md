@@ -1,1 +1,1 @@
-# HerbariumApp
+# Herbarium
