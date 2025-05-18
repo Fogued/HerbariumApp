@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1007017712386",
+    "firebase_url": "https://fogued-herbarium-default-rtdb.firebaseio.com",
+    "project_id": "fogued-herbarium",
+    "storage_bucket": "fogued-herbarium.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007017712386:android:4654c0cc69093887eac01b",
+        "android_client_info": {
+          "package_name": "com.fogued.herbarium"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXNuId03UIwZgJsgNHk6xB3SjqQu1mNUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007017712386:android:86ec595712cd624deac01b",
+        "android_client_info": {
+          "package_name": "com.fogued.herbariumapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXNuId03UIwZgJsgNHk6xB3SjqQu1mNUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
