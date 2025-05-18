@@ -29,7 +29,7 @@ Aplicación Android desarrollada en Kotlin que permite gestionar usuarios, captu
 
 ---
 
-## 🚀 Tecnologías Usadas
+## Tecnologías Usadas
 
 - Kotlin
 - Android Jetpack (ViewModel, LiveData, Navigation)
@@ -40,4 +40,15 @@ Aplicación Android desarrollada en Kotlin que permite gestionar usuarios, captu
 - CameraX
 - Glide (para mostrar imágenes)
 
+---
+
+## Futuros avances
+
+- Agregar soporte para iniciar sesión con proveedores externos (Google, Facebook, Apple)
+- Permitir compartir fotos directamente desde la galería
+- Incorporar filtros o edición básica de imágenes antes de subirlas
+- Soporte para comentarios y reacciones en las fotos
+- Implementación de sistema de notificaciones para interacciones
+- Integración de etiquetas (tags) para clasificar fotos
+- Buscador por nombre, ubicación o descripción de la imagen
 
