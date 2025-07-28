@@ -1,54 +1,64 @@
 # HerbariumApp
 
-Aplicación Android desarrollada en Kotlin que permite gestionar usuarios, capturar fotos, completar metadatos personalizados, y almacenarlos en la nube utilizando Firebase. También incluye una galería interactiva con diferentes vistas.
+Herbarium is a modern Android application built with Kotlin that enables users to effortlessly manage accounts, capture and organize plant photos with custom metadata, and seamlessly store everything in the cloud using Firebase. The app also features an intuitive interactive gallery with flexible view options for an enhanced user experience.
 
----
+## Features
 
-## Características
+- **Secure User Authentication**  
+    Sign up, sign in, and sign out smoothly using Firebase Authentication to protect your data.
+    
+- **Photo Capture**  
+    Capture high-quality photos directly from your device’s camera with `CameraX`.
+    
+- **Metadata Input**  
+    Each photo can be saved with custom details:
+    
+    - Name
+        
+    - Location (entered manually)
+        
+    - Description
+        
+- **Cloud Storage**  
+    Images are uploaded to Firebase Storage, while their metadata is safely stored in Firebase Realtime Database.
+    
+- **Interactive Photo Gallery**  
+    View and browse all your uploads (or everyone’s, as configured). Switch between:
+    
+    - List view 
+        
+    - Grid view 
+        
 
-- **Autenticación de usuarios**  
-  Registro, inicio de sesión y cierre de sesión con Firebase Authentication.
+## Technology Stack
 
-- **Captura de fotos**  
-  Toma fotos desde la cámara con `CameraX`.
+- **Language:** Kotlin
+    
+- **Framework:** Android Jetpack (ViewModel, LiveData, Navigation)
+    
+- **Cloud Backend:** Firebase
+    
+    - Authentication
+        
+    - Realtime Database
+        
+    - Storage
+        
+- **Imaging:** CameraX, Glide (for image display)
+    
 
-- **Formulario de metadatos**  
-  Antes de guardar la imagen, el usuario puede ingresar:
-  - Nombre de la imagen
-  - Ubicación (manual o automática si usas GPS)
-  - Descripción
+## Future work
 
-- **Almacenamiento en la nube**  
-  Las fotos se suben a Firebase Storage y los metadatos a Firebase Realtime Database.
+- AI-powered image recognition
+    
+- External login support (Google, Facebook, Apple)
+    
+- Image filters and basic editing before upload
 
-- **Galería de fotos**  
-  Visualiza todas las imágenes subidas por el usuario (o todos, según configuración).
-
-- **Cambio de vista**  
-  Alterna entre vista de lista 📃 y vista de cuadrícula 🟦 en la galería.
-
----
-
-## Tecnologías Usadas
-
-- Kotlin
-- Android Jetpack (ViewModel, LiveData, Navigation)
-- Firebase:
-  - Authentication
-  - Realtime Database
-  - Storage
-- CameraX
-- Glide (para mostrar imágenes)
-
----
-
-## Futuros avances
-
-- Agregar soporte para iniciar sesión con proveedores externos (Google, Facebook, Apple)
-- Permitir compartir fotos directamente desde la galería
-- Incorporar filtros o edición básica de imágenes antes de subirlas
-- Soporte para comentarios y reacciones en las fotos
-- Implementación de sistema de notificaciones para interacciones
-- Integración de etiquetas (tags) para clasificar fotos
-- Buscador por nombre, ubicación o descripción de la imagen
-
+- Location auto-filled with GPS
+    
+- Commenting and reactions on photos
+    
+- Tag integration for organizing photos
+    
+- Search plants by name, location, or description
